@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<HTML LANG="en">
+    <HEAD>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <LINK REL="stylesheet" HREF="style.css">
+
+        <link rel="icon" href="icon.png">
+
+        <SCRIPT TYPE="text/javascript" SRC="impromptu.js"></SCRIPT>
+        <SCRIPT TYPE="text/javascript" SRC="impromptu_topics.js"></SCRIPT>
+
+        <TITLE>AcaDec Impromptu Practice</TITLE>
+    </HEAD>
+    <BODY>
+        <DIV CLASS="main" ID="main">
+            <DIV CLASS="main-header">AcaDec Impromptu Practice</DIV>
+            <DIV CLASS="main-text">Click the button below to start your impromptu practice. You will have 1 minute to select a prompt and prepare, and 1.5 to 2 minutes to give your speech. Signals will be given at the 1, 0.5, and 0 minutes remaining marks. This webapp will auto-generate 3 prompts for you; pick one to respond to. <DIV STYLE="height: 10px;"></DIV>If you check "hide timer", you'll only see the color-coded timecards without a timer. Color codes are:
+            <SPAN STYLE="background-color: var(--green); color: var(--light)">2 minutes left</SPAN>, <SPAN STYLE="background-color: var(--light-blue); color: var(--light)">1 minute left</SPAN>, <SPAN STYLE="background-color: #d8cd00; color: var(--dark)">30 seconds left</SPAN>, and <SPAN STYLE="background-color: red; color: var(--light)">time's up</SPAN>. When you're finished speaking, hit the "finish speech" button for your timing result.</DIV>
+            <BUTTON CLASS="main-button" STYLE="margin-top: 20px;" ONCLICK="startImpromptuPrep()">Click to begin</BUTTON>
+            <LABEL CLASS="timertoggle">
+                <input type="checkbox" id="hidetimer" name="hidetimer" ONCLICK="setTimerEnabled()">
+                <span class="slider"></span>
+            </LABEL>
+            <SPAN STYLE="font-size: 16px; vertical-align: middle;">Hide Timer</SPAN>
+            <A STYLE="display: block; margin-top: 15px;" HREF="index.html">< Back to home</A>
+        </DIV>
+    </BODY>
+</HTML>
