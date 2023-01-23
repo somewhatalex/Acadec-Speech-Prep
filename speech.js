@@ -124,7 +124,7 @@ function homePage() {
     <DIV CLASS="main-header">AcaDec Prepared Speech Practice</DIV>
     <DIV CLASS="main-text">Click the button below to start your prepared speech practice. You will have 3.5 to 4 minutes to give your speech. Signals will be given at the 1, 0.5, and 0 minutes remaining marks. <DIV STYLE="height: 10px;"></DIV>If you check "hide timer", you'll only see the color-coded timecards without a timer. Color codes are:
     <SPAN STYLE="background-color: var(--green); color: var(--light)">4 minutes left</SPAN>, <SPAN STYLE="background-color: var(--light-blue); color: var(--light)">1 minute left</SPAN>, <SPAN STYLE="background-color: #d8cd00; color: var(--dark)">30 seconds left</SPAN>, and <SPAN STYLE="background-color: red; color: var(--light)">time's up</SPAN>. When you're finished speaking, hit the "finish speech" button for your timing result.</DIV>
-    <BUTTON CLASS="main-button" STYLE="margin-top: 20px;" ONCLICK="startPreparedPrep()">Click to begin</BUTTON>
+    <BUTTON CLASS="main-button" STYLE="margin-top: 20px;" ONCLICK="startPreparedSpeech()">Click to begin</BUTTON>
     <LABEL CLASS="timertoggle">
         <input type="checkbox" id="hidetimer" name="hidetimer" ONCLICK="setTimerEnabled()"${checked}>
         <span class="slider"></span>
